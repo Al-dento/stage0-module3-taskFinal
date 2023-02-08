@@ -14,6 +14,6 @@ public class NumberReverter {
 
     public static void main(String[] args) {
         NumberReverter numberReverter = new NumberReverter();
-        numberReverter.revert(456 );
+        numberReverter.revert(456);
     }
 }
