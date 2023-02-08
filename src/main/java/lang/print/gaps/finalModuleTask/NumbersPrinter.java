@@ -4,7 +4,7 @@ public class NumbersPrinter {
     public void printIsPositive(int number) {
         if (number > 0) {
             System.out.println(true);
-        } else if (number < 0) {
+        } else if (number <0) {
             System.out.println(false);
         } else if (number == 0) {
             System.out.println("no");
