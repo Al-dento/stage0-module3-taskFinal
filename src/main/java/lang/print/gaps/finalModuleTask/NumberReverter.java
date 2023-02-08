@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 public class NumberReverter {
     public void revert(int number) {
         String numberString = Integer.toString(number);
-        StringBuilder stringBuilder  = new StringBuilder(numberString);
+        StringBuilder stringBuilder = new StringBuilder(numberString);
         stringBuilder.reverse();
         numberString = String.valueOf(stringBuilder);
         number = Integer.parseInt(numberString);
